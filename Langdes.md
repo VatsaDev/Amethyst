@@ -1,6 +1,6 @@
 # Language Design
 
-# pythonian features
+## pythonian features
 
  - easy input
  - good STL
@@ -63,3 +63,8 @@ int main() {
 ```py
 print("Hello World!")
 ```
+
+
+## haskellian features
+
+## amethyst pseudocode
