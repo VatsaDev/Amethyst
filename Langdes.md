@@ -32,6 +32,7 @@ Good STL:
 I like "I can import anything" part of python, and I will most likely implement small parts of the python standard library overtime, but I would like enough to be able to complete AoC with it, so by order of priority
 
  - `import math` going to be big
+ - fileio, need minimum ability to read files
  - probably need some sort of counter/hashmap thing
  - some equivalent of itertools permutations/combinations
  - regex/strings(.sort, .reverse, slice, etc) type lib
@@ -41,7 +42,7 @@ Other stuff I'll probably add to the STL for more general use:
 
  - types, beyond just the usual int8/fp16/char, etc, maybe actually implement types that can be user defined, ex [alcuin](https://x.com/scheminglunatic), who recommended types like `direction = up|down|left|right`
  - some try catch with default exceptions
- - datetime, fileio, csv, hashlib, gzip, os, io, threading&multiprocessing, etc
+ - datetime, csv, hashlib, gzip, os, io, threading&multiprocessing, etc
  - asyncio, urllib, tkinter equiv
 
 Easy syntax:
@@ -68,3 +69,12 @@ print("Hello World!")
 ## haskellian features
 
 ## amethyst pseudocode
+
+## other cool stuff I might add overtime
+
+ - a proper module system, so people can actually make third party libs for the lang
+ - amethysts equivalent for pytorch, probs simpler, basicML lib
+ - networking stuff, tcp/udp, ports, etc
+ - sveltekit type lib, or django equiv
+ - matplotlib, but with a more wandb style soft theme by default
+ - not part of the lang, but llama amethyst would be funny
