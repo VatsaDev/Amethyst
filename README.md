@@ -3,6 +3,7 @@ Make an FP language for competitive programming, like Python+Haskell
 
 Haskell:
  - I like the vibes
+ - Pure function is nice for more stateless things like math, or icpc/cp, or systems with low coupling etc
 
 Python:
  - good STL
