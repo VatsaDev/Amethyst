@@ -68,6 +68,17 @@ print("Hello World!")
 
 ## haskellian features
 
+ - being really functional
+
+I mostly like how the purely functional setup looks, also one liners
+
+ex. one liner for watermelon (beginner CF)
+
+```
+main :: IO ()
+main = getLine >>= putStrLn . (\w -> if w > 2 && even w then "YES" else "NO") . read
+```
+
 ## amethyst pseudocode
 
 ## other cool stuff I might add overtime
